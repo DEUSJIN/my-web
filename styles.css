@@ -1,5 +1,32 @@
-body{
-	color: "white";
-	background-image: url("images/tiga.jpg");
+@font-face{
+	src: url("fonts/SFSportsNight.ttf");
+	font-family: coolFont;
+}
+
+body {
+	color: D0111B;
+	text-align: center;
+	font-family: coolFont;
+	margin:0;
+}
+.btn{
+	font-family: inherit;
+	color:inherit;
+	padding: 4 6;
+}
+#hero {
+	background-image: url("images/Ultraman with monster in his hand.webp");
+	padding: 10px 0px 5px 0px;
 	background-size: cover;
+}
+
+.underline{
+	border-bottom: 4px groove black;
+}
+#main-logo {
+		width: 100px;
+}
+
+#nihao {
+	text-shadow: 3px 3px 2px black;
 }
